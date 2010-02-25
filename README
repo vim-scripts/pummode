@@ -1,0 +1,12 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2989
+
+Put this in your .vimrc
+
+	call pummode#map('i', '', 0, 'j', '<C-n>')
+	call pummode#map('i', '', 0, 'k', '<C-p>')
+	call pummode#map('i', '', 0, '<CR>', '<C-y>')
+
+So now you can select popup menu with j and k, <CR> to insert that item.
+See the document for more detail.
+
+latest version at http://github.com/tyru/pummode.vim/
